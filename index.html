@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | PT Satu Dua Tiga Sayang Semuanya</title>
+  <meta name="description" content="Kontraktor MEP profesional: mekanikal, elektrikal, dan plumbing.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<!-- ===== NAVBAR ===== -->
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><img src="assets/favicon.svg" alt="" width="32" height="32"> Satu Dua Tiga</a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
+    <nav class="menu">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== HERO: ilustrasi SVG animasi (kipas HVAC, pipa, kabel listrik) ===== -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">Mechanical &middot; Electrical &middot; Plumbing</span>
+      <h1>Sistem gedung yang andal, dikerjakan dengan presisi.</h1>
+      <p>Kami merancang, memasang, dan merawat instalasi MEP untuk gedung komersial, industri, dan hunian dengan standar keselamatan dan kualitas terbaik.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="contact.html">Konsultasi Gratis</a>
+        <a class="btn btn-ghost" href="projects.html">Lihat Project</a>
+      </div>
+    </div>
+    <div class="hero-art float" aria-hidden="true">
+      <svg viewBox="0 0 400 400" fill="none">
+        <circle cx="200" cy="200" r="170" fill="#b2edc0" opacity=".45"/>
+        <circle cx="200" cy="200" r="120" fill="#fff" stroke="#0f3d2e" stroke-width="3"/>
+        <!-- Kipas HVAC (berputar) -->
+        <g class="spin" fill="#0f3d2e">
+          <ellipse cx="200" cy="150" rx="22" ry="48"/>
+          <ellipse cx="200" cy="150" rx="22" ry="48" transform="rotate(90 200 200)"/>
+          <ellipse cx="200" cy="150" rx="22" ry="48" transform="rotate(180 200 200)"/>
+          <ellipse cx="200" cy="150" rx="22" ry="48" transform="rotate(270 200 200)"/>
+        </g>
+        <circle cx="200" cy="200" r="14" fill="#b2edc0" stroke="#0f3d2e" stroke-width="3"/>
+        <!-- Pipa (aliran air) -->
+        <path class="flow-pipe" d="M10 350 H130 V310 H270 V350 H390" stroke="#2f9e5b" stroke-width="6" stroke-linecap="round"/>
+        <!-- Kabel listrik (aliran arus) -->
+        <path class="flow-wire" d="M10 50 H120 L145 75 H255 L280 50 H390" stroke="#0f3d2e" stroke-width="4" stroke-linecap="round"/>
+        <!-- Titik sambungan berdenyut -->
+        <circle class="pulse" cx="145" cy="75" r="7" fill="#2f9e5b"/>
+        <circle class="pulse" cx="255" cy="75" r="7" fill="#2f9e5b"/>
+        <circle class="pulse" cx="130" cy="330" r="7" fill="#0f3d2e"/>
+        <circle class="pulse" cx="270" cy="330" r="7" fill="#0f3d2e"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ===== LAYANAN ===== -->
+<section class="section">
+  <div class="container">
+    <span class="eyebrow">Layanan</span>
+    <h2>Solusi MEP terpadu</h2>
+    <div class="grid grid-3">
+      <article class="card reveal"><div class="icon">&#10052;</div><h3>Mechanical</h3><p>HVAC, ventilasi, chiller, dan sistem proteksi kebakaran untuk kenyamanan dan keamanan gedung.</p></article>
+      <article class="card reveal"><div class="icon">&#9889;</div><h3>Electrical</h3><p>Panel distribusi, genset, penerangan, dan instalasi daya sesuai standar PUIL.</p></article>
+      <article class="card reveal"><div class="icon">&#128167;</div><h3>Plumbing</h3><p>Air bersih, air kotor, pompa, hingga pengolahan limbah dengan material berkualitas.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== AJAKAN (CTA) ===== -->
+<section class="section alt">
+  <div class="container">
+    <div class="cta reveal">
+      <h2>Punya proyek yang ingin diwujudkan?</h2>
+      <p>Ceritakan kebutuhan Anda, tim kami siap membantu dari perencanaan hingga serah terima.</p>
+      <a class="btn btn-primary" href="contact.html">Hubungi Kami</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="container">
+    &copy; <span class="year"></span> PT Satu Dua Tiga Sayang Semuanya. Mechanical, Electrical &amp; Plumbing.
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

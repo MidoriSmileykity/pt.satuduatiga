@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | PT Satu Dua Tiga Sayang Semuanya</title>
+  <meta name="description" content="Hubungi PT Satu Dua Tiga Sayang Semuanya.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<!-- ===== NAVBAR ===== -->
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><img src="assets/favicon.svg" alt="" width="32" height="32"> Satu Dua Tiga</a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero"><div class="container">
+  <span class="eyebrow">Contact</span>
+  <h1>Mari berbincang.</h1>
+</div></section>
+
+<section class="section"><div class="container grid grid-2" style="align-items:start">
+  <div class="reveal">
+    <h2>Informasi kontak</h2>
+    <p>Isi formulir, lalu pilih kirim lewat WhatsApp atau Email.</p>
+    <ul class="info-list">
+      <li>&#128205; Jl. Contoh Raya No. 123, Jakarta</li>
+      <li>&#9742; +62 812-3456-7890</li>
+      <li>&#9993; info@satuduatiga.co.id</li>
+    </ul>
+  </div>
+
+  <!-- ===== FORM: tombol WA / Email diatur di assets/js/main.js ===== -->
+  <form id="contact-form" class="form card reveal" novalidate>
+    <label>Nama <input type="text" name="nama" required placeholder="Nama lengkap"></label>
+    <label>Email <input type="email" name="email" required placeholder="nama@email.com"></label>
+    <label>Telepon <input type="tel" name="telepon" placeholder="08xxxxxxxxxx"></label>
+    <label>Pesan <textarea name="pesan" rows="5" required placeholder="Ceritakan kebutuhan proyek Anda"></textarea></label>
+    <div class="btn-row">
+      <button type="button" class="btn btn-wa" data-channel="wa">Kirim via WhatsApp</button>
+      <button type="button" class="btn btn-primary" data-channel="email">Kirim via Email</button>
+    </div>
+  </form>
+</div></section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="container">
+    &copy; <span class="year"></span> PT Satu Dua Tiga Sayang Semuanya. Mechanical, Electrical &amp; Plumbing.
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
