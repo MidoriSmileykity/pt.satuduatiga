@@ -6,8 +6,8 @@
 
 /* 1. KONFIGURASI - GANTI dengan data perusahaan yang asli */
 const CONFIG = {
-  whatsapp: "6281234567890",        // format internasional, tanpa +, spasi, atau 0 di depan
-  email: "info@satuduatiga.co.id",
+  whatsapp: "6289654082548",        // format internasional, tanpa +, spasi, atau 0 di depan
+  email: "satudua3@rocketmail.com",
 };
 
 /* 2. MENU MOBILE: buka/tutup saat tombol ☰ ditekan */
